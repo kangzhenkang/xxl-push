@@ -5,8 +5,10 @@
 	<artifactId>xxl-push</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
+
 	<modules>
-	</modules>
+        <module>xxl-push-core</module>
+    </modules>
 
 	<build>
 		<plugins>
