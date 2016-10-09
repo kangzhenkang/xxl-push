@@ -8,13 +8,20 @@
         <groupId>com.xxl</groupId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>xxl-push-core</artifactId>
+    <artifactId>xxl-push-im</artifactId>
 
     <properties>
+        <xxl-push.version>1.0.0</xxl-push.version>
         <spring.version>4.3.2.RELEASE</spring.version>
     </properties>
 
     <dependencies>
+        <!-- xxl-push-core -->
+        <dependency>
+            <groupId>com.xxl</groupId>
+            <artifactId>xxl-push-core</artifactId>
+            <version>${xxl-push.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -24,9 +31,10 @@
 
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
+            <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
     </dependencies>
+
 
 </project>

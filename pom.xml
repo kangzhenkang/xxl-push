@@ -8,7 +8,9 @@
 
 	<modules>
         <module>xxl-push-core</module>
-    </modules>
+        <module>xxl-push-broker</module>
+		<module>xxl-push-im</module>
+	</modules>
 
 	<build>
 		<plugins>
