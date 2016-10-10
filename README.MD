@@ -1,7 +1,9 @@
+《分布式消息推送平台 XXL-PUSH》
+
 项目：
 ---
-- xxl-push-broker   : 推送代理中心（ws + redis集群/beat刷新、连接监控、消息监控）
-- xxl-push-core     : 公共依赖
+- xxl-push-broker   : 推送代理中心，挂载"xxl-push-core"（ws + redis集群/beat刷新、连接监控、消息监控）
+- xxl-push-core     : 推送核心逻辑
 - xxl-push-im       : 基于xxl-push实现的IM系统, 拥有push、IM特性
 
 redis key：
